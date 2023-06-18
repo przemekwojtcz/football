@@ -1,7 +1,0 @@
-stages:
-  - test-stage
-
-test-job:
-  stage: test-stage
-  script:
-    - echo "Hello, $GITLAB_USER_LOGIN!"
